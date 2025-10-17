@@ -1,0 +1,5 @@
+package com.petcare.repository;
+
+public class PetRepository {
+
+}
