@@ -11,7 +11,7 @@ function PetList() {
     healthStatus: "",
   });
 
-  const API_URL = "http://localhost:2017/api/pets";
+  const API_URL = "http://localhost:2026/api/pets";
   const navigate = useNavigate();
 
   const handleChange = (e) => {

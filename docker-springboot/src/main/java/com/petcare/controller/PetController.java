@@ -5,7 +5,7 @@ import com.petcare.repository.PetRepository;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/pets")
 public class PetController {
